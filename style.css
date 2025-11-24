@@ -1,0 +1,224 @@
+/* Estilo Geral */
+*{
+   margin: 0%; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(48, 238, 0);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* ESTILO DO CABEÇALHO */
+header{
+padding: 40px 4%;
+
+
+}
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li {
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site .flex{
+   align-items: center;
+   justify-content: center;
+   gap: 90px;
+}
+.topo-do-site img{
+    max-width: 500px;
+}
+.topo-do-site h1{
+    color: white;
+    font-size: 42px;
+    line-height: 40px;
+}
+.topo-do-site p{
+   color: white;
+    margin: 40px 0;
+}
+.img-topo-site img {
+  width: 300px;  /* diminui a largura */
+}
+
+.especialidades-box img {
+  width: 250px;   /* diminui os ícones das especialidades */
+}
+.especialidades-box h3 {
+  font-size: 20px;  /* diminui o tamanho do título das especialidades */
+}
+h2{color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.img2 img {
+  width: 400px;  /* diminui a largura da imagem sobre */
+}
+.projeto-box img {
+  width: 300px;  /* diminui a largura das imagens dos projetos */
+}
+
+#tema {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.claro {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.claro #tema {
+  background-color: #ddd;
+color: #000;
+}
+
+
+body {
+  background-color: #000000;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.claro {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+#tema {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  padding: 5px 9px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: 0.3s;
+}
+
+
+body.claro #tema {
+  background-color: #ddd;
+color:#000;
+}
+
+
+body.claro,
+body.claro * {
+  background-color: white !important;
+  color: black !important;
+  transition: background-color 0.3s, color 0.3s;
+}
+/* ===== Formulário de Contato ===== */
+
+.form-contato {
+  width: 100%;
+  max-width: 450px;
+  background: #111;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-contato input,
+.form-contato textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background: #1b1b1b;
+  color: #fff;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+
+.form-contato textarea {
+  resize: none;
+}
+
+.form-contato button {
+  padding: 12px;
+  border: none;
+  background: linear-gradient(45deg, #000000, #000000);
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-contato button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #000000;
+}
